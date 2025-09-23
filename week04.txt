@@ -8,3 +8,4 @@ git commit --amend -m "수정할 커밋메시지"  이름바꾸기
 git reset --hard HEAD~최근커밋부터 시작해서 삭제갯수 1이면 최근부터1개 2면 최근포함2개 
 git fetch
 git pull
+git push -f origin main 원격에있던말든 강제로 밀기
