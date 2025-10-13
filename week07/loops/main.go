@@ -1,13 +1,17 @@
 package main
 
-import "fmt"
+import (
+	"fmt"
+	"strings"
+	"time"
+)
 
 func main() {
-	var length float64 = 1.2
-	var width int = 2
-	fmt.Println("면적은", int(length)*width)
-	fmt.Println("length > width?", int(length) > width)
-	fmt.Println("length > width?", int(length) > width)
-	fmt.Println("origin", width)
-	fmt.Println("origin", width)
+	var now time.Time = time.Now()
+	var day int = now.Day()
+	fmt.Println(day)
+	univ := "G$ rck$!"
+	changer := strings.NewReplacer("$", "!")
+	changed := changer.Replace(univ)
+	fmt.Println(changed)
 }
