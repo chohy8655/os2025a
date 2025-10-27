@@ -15,7 +15,7 @@ git push -u origin main
 git psut
 git remote -v(현 주소확인)
 git remote remove   기존주소 삭제
-git remote remove   origin
+git remote remove   originssd
 
 git clone 원격리포지
 git clone 원격리포지 .  폴더 상위   (삭제복구)

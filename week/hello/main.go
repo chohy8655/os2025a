@@ -1,10 +1,13 @@
 package main
 
-import "fmt"
+import (
+	"fmt"
+)
 
 func main() {
-	// name := "Go developers"
-	// fmt.Println("Git/Github for", name)
-	number := 7
-	fmt.Printf("Git/Github for %d\n", number)
+	a := 5
+	a, b := 19, 29
+
+	fmt.Println(a, b)
+
 }
